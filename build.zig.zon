@@ -1,0 +1,21 @@
+.{
+    .name = .rust_man,
+
+    .version = "0.0.0",
+
+    .fingerprint = 0xb16ede56b5e30f84,
+
+    .minimum_zig_version = "0.15.2",
+
+    .dependencies = .{
+        .zig_webui = .{
+            .url = "https://github.com/webui-dev/zig-webui/archive/main.tar.gz",
+            .hash = "zig_webui-2.5.0-beta.4-M4z7zfBlAQDCSVNk_B9TZkOw3PE1NsKKrabgVforJoaV",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
